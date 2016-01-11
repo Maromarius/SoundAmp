@@ -51,19 +51,19 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        LoginManager.getInstance().registerCallback(callbackManager,
+       /* LoginManager.getInstance().registerCallback(callbackManager,
                 new FacebookCallback<LoginResult>() {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
                         Toast.makeText(getContext(), "You are Logged in!",Toast.LENGTH_SHORT);
 
-                       /* textview.setText(
+                       *//* textview.setText(
                                 "User ID: "
                                         + loginResult.getAccessToken().getUserId()
                                         + "\n" +
                                         "Auth Token: "
                                         + loginResult.getAccessToken().getToken()
-                        );*/
+                        );*//*
                     }
 
                     @Override
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 });
-
+*/
         /*GraphRequest request = GraphRequest.newMeRequest(
                 AccessToken.getCurrentAccessToken(),
                 new GraphRequest.GraphJSONObjectCallback() {
